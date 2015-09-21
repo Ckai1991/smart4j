@@ -5,14 +5,14 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.text.DateFormat;
-import java.text.SimpleDateFormate;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Created by Ckai on 15/9/20.
  */
-@WebServlet(name = "/hello")
+@WebServlet("/hello")
 public class HelloServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, java.io.IOException {
 
